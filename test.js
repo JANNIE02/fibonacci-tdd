@@ -1,4 +1,5 @@
 // test.js
+// Jannie Birungi, Micheal Asiimwe
 const fibonacci = require('./fibonacci');
 const assert = require('chai').assert;
 
