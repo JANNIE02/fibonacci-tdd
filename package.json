@@ -1,0 +1,30 @@
+{
+  "name": "fibonacci-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "mocha"
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JANNIE02/fibonacci-tdd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JANNIE02/fibonacci-tdd/issues"
+  },
+  "homepage": "https://github.com/JANNIE02/fibonacci-tdd#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^16.0.0"
+  }
+}
