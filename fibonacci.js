@@ -1,4 +1,5 @@
 function fibonacci(n) {
+    if (n < 0) throw new Error("Fibonacci is not defined for negative numbers");  // Handle negative numbers
     if (n === 0) return 0;
     if (n <= 1) return n;   // Return n for 1 as it's the base case
     let a = 0, b = 1;
